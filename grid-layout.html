@@ -179,73 +179,73 @@
     
     <pre>
         <h2>CSS code</h2>
-        <code>
-            .grid-container-fluid {
-                width: 100%;
-                box-sizing: border-box;
-            }
-            .grid-container {
-                width: 1200px;
-                margin: 0 auto;
-                box-sizing: border-box;
-            }
-            .grid-row {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(6%, 1fr));
-                grid-gap: 15px;
-                margin: 15px 0;
-            }
+<code>
+    .grid-container-fluid {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .grid-container {
+        width: 1200px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    .grid-row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(6%, 1fr));
+        grid-gap: 15px;
+        margin: 15px 0;
+    }
 
-            /*  Mobile */
-            @media only screen and (max-width: 768px) {
-                .grid-row {
-                    display: grid;
-                    grid-template-columns: 1fr;
-                    grid-gap: 15px;
-                    margin: 15px 0;
-                }
-                [class*="col-"][class*="col-"] {
-                    grid-column: span 12;
-                }
-            }
+    /*  Mobile */
+    @media only screen and (max-width: 768px) {
+        .grid-row {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 15px;
+            margin: 15px 0;
+        }
+        [class*="col-"][class*="col-"] {
+            grid-column: span 12;
+        }
+    }
 
-            .col-1 {
-               grid-column: span 1;
-            }
-            .col-2 {
-               grid-column: span 2;
-            }
-            .col-3 {
-               grid-column: span 3;
-            }
-            .col-4 {
-               grid-column: span 4;
-            }
-            .col-5 {
-               grid-column: span 5;
-            }
-            .col-6 {
-               grid-column: span 6;
-            }
-            .col-7 {
-               grid-column: span 7;
-            }
-            .col-8 {
-               grid-column: span 8;
-            }
-            .col-9 {
-               grid-column: span 9;
-            }
-            .col-10 {
-               grid-column: span 10;
-            }
-            .col-11 {
-               grid-column: span 11;
-            }
-            .col-12 {
-               grid-column: span 12;
-            }
-        </code>
+    .col-1 {
+       grid-column: span 1;
+    }
+    .col-2 {
+       grid-column: span 2;
+    }
+    .col-3 {
+       grid-column: span 3;
+    }
+    .col-4 {
+       grid-column: span 4;
+    }
+    .col-5 {
+       grid-column: span 5;
+    }
+    .col-6 {
+       grid-column: span 6;
+    }
+    .col-7 {
+       grid-column: span 7;
+    }
+    .col-8 {
+       grid-column: span 8;
+    }
+    .col-9 {
+       grid-column: span 9;
+    }
+    .col-10 {
+       grid-column: span 10;
+    }
+    .col-11 {
+       grid-column: span 11;
+    }
+    .col-12 {
+       grid-column: span 12;
+    }
+</code>
     </pre>
 </body>
 </html>
